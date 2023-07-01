@@ -1,0 +1,38 @@
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url(./../media/background.png);
+}
+
+.form {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 35%;
+    height: 55%;
+}
+
+#username{
+    width: 100%;
+    border-bottom: solid rgba(72, 72, 207, 0.363) ;
+    transition: 1s;
+    outline: none;
+
+}
+#username:hover,#password:hover{
+    background-color: rgb(126, 114, 236);
+    border-bottom: solid rgb(39, 2, 247) ;
+}
+
+
+
+#password{
+    width: 100%;
+    border-bottom: solid rgba(72, 72, 207, 0.363) ;
+    transition: 1s;
+    outline: none;
+}
+
